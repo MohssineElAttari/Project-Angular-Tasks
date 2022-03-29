@@ -1,27 +1,37 @@
-# Tasks
+# Angular Crash Course 2022 (Tasks Manager App)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+This is the project from the [YouTube crash course](https://youtu.be/i0jHgkoro1A "Angular de A a Z avec une Api Rest et Json Server en Darija
+"). It includes the Angular ui as well as JSON-server for our mock backend
 
-## Development server
+##Screen
+<img src="screens/scren1.png">
+<img src="screens/scren2.png">
+<img src="screens/scren3.png">
+<img src="screens/scren4.png">
+<img src="screens/scren5.png">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Usage
 
-## Code scaffolding
+### Install dependencies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+npm install
+```
 
-## Build
+### Run Angular server (http://localhost:4200)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+ng serve
+```
 
-## Running unit tests
+### Run the JSON server (http://localhost:5000)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm run server
+```
 
-## Running end-to-end tests
+### To build for production
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+ng build
+```

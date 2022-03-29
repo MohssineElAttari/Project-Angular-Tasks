@@ -1,17 +1,29 @@
 {
-    "tasks":[
-        {
-            "id":1,
-            "label":"learn Angular",
-            "completed":false
-        },{
-            "id":2,
-            "label":"learn Spring boot",
-            "completed":false
-        },{
-            "id":2,
-            "label":"learn Laravel",
-            "completed":false
-        }
-    ]
+  "tasks": [
+    {
+      "id": 1,
+      "label": "learn Angular",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "label": "learn Spring boot",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "label": "learn Laravel",
+      "completed": true
+    },
+    {
+      "label": "learn React Js",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "label": "learn Python",
+      "completed": true,
+      "id": 5
+    }
+  ]
 }
