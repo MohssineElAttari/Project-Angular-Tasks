@@ -5,10 +5,10 @@ This is the project from the [YouTube crash course](https://youtu.be/i0jHgkoro1A
 
 ##Screen
 <img src="screens/scren1.png">
-<img src="screens/scren2.png">
-<img src="screens/scren3.png">
-<img src="screens/scren4.png">
-<img src="screens/scren5.png">
+<img src="screens/screen2.png">
+<img src="screens/screen3.png">
+<img src="screens/screen4.png">
+<img src="screens/screen5.png">
 
 ## Usage
 
