@@ -2,8 +2,8 @@
   "tasks": [
     {
       "id": 1,
-      "label": "learn Angular",
-      "completed": false
+      "label": "learn Angular ",
+      "completed": true
     },
     {
       "id": 2,

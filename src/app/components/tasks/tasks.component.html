@@ -39,19 +39,15 @@
 
 <div class="row">
     <div class="col-md-6 mx-auto">
-        <input (keyup)="searchTasks()" [(ngModel)]="searchText" type="text" placeholder="search..." class="form-control my-2">
-        {{searchText}}
+        <input (keyup)="searchTasks()" [(ngModel)]="searchText" type="text" placeholder="search..." class="form-control my-2"> {{searchText}}
         <ul class="list-group">
             <ul class="list-group">
 
-                <li *ngFor="let task of resultTasks"
-                    class="list-group-item d-flex justify-content-between align-items-center">
+                <li *ngFor="let task of resultTasks" class="list-group-item d-flex justify-content-between align-items-center">
 
                     <button (click)="editeTask(task)" class="btn btn-warning btn-sm">
                         <i class="fa fa-pencil"></i>
-                    </button>
-
-                    {{task.label}}
+                    </button> {{task.label}}
                     <span (click)="toggleCompleted(task)" [ngClass]="{'badge-info':task.completed,
                     'badge-danger':!task.completed}" class="badge badge-pill">
                         <i class="fa" [ngClass]="{

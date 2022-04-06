@@ -30,7 +30,7 @@ export class TasksComponent implements OnInit {
           'Your imaginary file has been deleted.',
           'success'
         )
-        this.deleteTask(task.id);
+        this.deleteTask(task.id!);
       } else if (result.dismiss === Swal.DismissReason.cancel) {
         Swal.fire(
           'Cancelled',
@@ -59,7 +59,7 @@ export class TasksComponent implements OnInit {
     this.taskService.findAll()
       .subscribe(tasks => this.resultTasks = this.tasks = tasks);
   }
-  deleteTask(id: any) {
+  deleteTask(id: number) {
     this.taskService.delete(id).subscribe(() => {
       this.resultTasks = this.tasks = this.tasks.filter(task => task.id != id);
     })
